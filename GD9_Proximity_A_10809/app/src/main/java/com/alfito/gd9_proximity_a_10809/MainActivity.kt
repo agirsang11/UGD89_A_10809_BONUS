@@ -43,9 +43,11 @@ class MainActivity : AppCompatActivity() {
 
         override fun onSensorChanged(event: SensorEvent) {
             if(event.sensor.type == Sensor.TYPE_PROXIMITY) {
-                sensorStatusTV.text = "<<<Near>>>"
-            } else {
-                sensorStatusTV.text = "<<<<Away>>>>"
+                if(event.values[0] == 0f) {
+                    sensorStatusTV.text = "<<<Near>>>"
+                } else {
+                    sensorStatusTV.text = "<<<<Away>>>>"
+                }
             }
         }
     }
