@@ -1,4 +1,4 @@
-package com.alfito.gd9_accelerometer_c_10809
+package com.alfito.gd9_accelerometer_a_10809
 
 import android.graphics.Color
 import android.hardware.Sensor
@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatDelegate
-import com.alfito.gd9_accelerometer_a_10809.R
 
 class MainActivity : AppCompatActivity(), SensorEventListener {
 

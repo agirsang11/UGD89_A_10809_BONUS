@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageButton
+import com.alfito.gd8_camera_a_10809.CameraView
 import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
